@@ -385,13 +385,12 @@ text { fill: #000000; }
 <g transform="translate(292, 237) rotate(11.93)" class="key keypos-42">
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key side"/>
 <rect rx="8" ry="8" x="-21" y="-21" width="42" height="42" class="key"/>
-<text x="0" y="0" class="key tap">F17</text>
-<text x="0" y="25" class="key hold">L2</text>
+<text x="0" y="0" class="key tap">SPACE</text>
 </g>
 <g transform="translate(365, 266) rotate(23.0)" class="key keypos-43">
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key side"/>
 <rect rx="8" ry="8" x="-21" y="-21" width="42" height="42" class="key"/>
-<text x="0" y="0" class="key tap">SPACE</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;layer_4_s…</tspan></text>
 </g>
 <g transform="translate(531, 266) rotate(-23.0)" class="key keypos-44">
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key side"/>

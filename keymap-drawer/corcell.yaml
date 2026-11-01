@@ -43,8 +43,8 @@ layers:
   - LGUI
   - LALT
   - {t: F16, h: L1}
-  - {t: F17, h: L2}
   - SPACE
+  - '&layer_4_signal'
   - SPACE
   - {t: F18, h: L3}
   - {t: A, h: '5'}
