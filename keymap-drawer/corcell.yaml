@@ -43,8 +43,8 @@ layers:
   - LGUI
   - LALT
   - {t: F16, h: L1}
+  - '4'
   - SPACE
-  - '&layer_4_signal'
   - SPACE
   - {t: F18, h: L3}
   - {t: A, h: '5'}
@@ -247,7 +247,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
