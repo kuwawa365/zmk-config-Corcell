@@ -29,26 +29,27 @@
         type = <INPUT_EV_REL>;
     };
 
-    // kuwawa
-    //corcell_right_slot1_auto_mouse_layer: corcell_right_slot1_auto_mouse_layer {
-    //    compatible = "zmk,input-processor-temp-layer";
-    //    #input-processor-cells = <2>;
-    //    require-prior-idle-ms = <200>;
-    //    excluded-positions = <19 20 21>;
-    //};
+    corcell_right_slot1_auto_mouse_layer: corcell_right_slot1_auto_mouse_layer {
+        compatible = "zmk,input-processor-temp-layer";
+        #input-processor-cells = <2>;
+        require-prior-idle-ms = <200>;
+        excluded-positions = <19 20 21>;
+    };
 };
 
 &trackball_listener_R {
     status = "okay";
     device = <&corcell_right_slot1_paw3222>;
     input-processors =
-        <&corcell_right_slot1_auto_mouse_layer 4 700>,
+        // kuwawa
+        //<&corcell_right_slot1_auto_mouse_layer 4 700>,
         <&mouse_runtime_input_processor>;
 
     scroll_layer {
         layers = <5>;
         input-processors =
-            <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>,
+            // kuwawa
+            //<&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>,
             <&corcell_right_slot1_vertical_scroll_mapper>,
             <&scroll_runtime_input_processor>;
     };
